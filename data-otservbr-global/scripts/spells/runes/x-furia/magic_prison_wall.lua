@@ -6,10 +6,7 @@ combat:setArea(createCombatArea(AREA_PRISON_SQUARE1X1))
 
 local rune = Spell("rune")
 function rune.onCastSpell(creature, variant, isHotkey)
-<<<<<<< HEAD
 	creature:say("Fui yo " .. creature:getName(), MESSAGE_POTION)
-=======
->>>>>>> ac1577df ([COMPLETED]: Magic prison wall rune)
 	return combat:execute(creature, variant)
 end
 
@@ -23,9 +20,6 @@ rune:level(1000)
 rune:magicLevel(1)
 rune:runeId(3159)
 rune:charges(0)
-<<<<<<< HEAD
 rune:isBlocking(true,false)
-=======
->>>>>>> ac1577df ([COMPLETED]: Magic prison wall rune)
 rune:allowFarUse(true)
 rune:register()
