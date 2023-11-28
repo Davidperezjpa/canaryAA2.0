@@ -6,6 +6,7 @@ combat:setArea(createCombatArea(AREA_PRISON_SQUARE1X1))
 
 local rune = Spell("rune")
 function rune.onCastSpell(creature, variant, isHotkey)
+	creature:say("Fui yo " .. creature:getName(), MESSAGE_POTION)
 	return combat:execute(creature, variant)
 end
 
