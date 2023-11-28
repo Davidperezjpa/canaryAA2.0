@@ -6719,10 +6719,11 @@
 		<attribute key="charges" value="5"/>
 		<attribute key="weight" value="42"/>
 	</item>
-	<item id="3159" article="a" name="spell rune">
-		<attribute key="primarytype" value="utilities"/>
+	<item id="3159" article="a" name="magic prison rune">
+		<attribute key="primarytype" value="attack runes"/>
 		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="120"/>
+		<attribute key="charges" value="0"/>
 	</item>
 	<item id="3160" article="an" name="ultimate healing rune">
 		<attribute key="type" value="rune"/>
