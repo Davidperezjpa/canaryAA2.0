@@ -5282,7 +5282,7 @@
 	</item>
 	<item id="2854" article="a" name="backpack">
 		<attribute key="primarytype" value="containers"/>
-		<attribute key="containersize" value="20"/>
+		<attribute key="containersize" value="60"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="increase capacity" value="3"/>
@@ -22843,7 +22843,7 @@
 	</item>
 	<item id="9605" article="a" name="crown backpack">
 		<attribute key="primarytype" value="containers"/>
-		<attribute key="containersize" value="20"/>
+		<attribute key="containersize" value="60"/>
 		<attribute key="weight" value="1700"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="increase capacity" value="3"/>
