@@ -334,6 +334,13 @@ AREA_SQUARE1X1 = {
 	{ 1, 1, 1 },
 }
 
+--Squares
+AREA_PRISON_SQUARE1X1 = {
+	{1, 1, 1},
+	{1, 2, 1},
+	{1, 1, 1}
+}
+
 AREA_SQUAREWAVE5_NAGA = {
 	{ 1, 1, 1 },
 	{ 1, 1, 1 },
