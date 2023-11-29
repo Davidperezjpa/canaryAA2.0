@@ -177,7 +177,7 @@ function randomItems.onUse(player, item, fromPosition, target, toPosition, isHot
 			else
 				player:say("You found nothing.", TALKTYPE_MONSTER_SAY)
 			end
-
+			player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_SPELL_KICK_GUEST, player:isInGhostMode() and nil or player)
 			item:getPosition():sendMagicEffect(useId.effect)
 			item:remove(1)
 			break
