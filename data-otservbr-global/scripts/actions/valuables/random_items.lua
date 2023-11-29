@@ -1,4 +1,17 @@
 local config = {
+	[23488] = { -- Surprise Cube
+		chances = {
+			{from = 1, to = 1000, itemId = 3159},
+			{from = 1001, to = 2000, itemId = 3185},
+			{from = 2001, to = 3000, itemId = 3186},
+			{from = 3001, to = 4000, itemId = 3181},
+			{from = 4001, to = 5000, itemId = 3154, count = 3},
+			{from = 5001, to = 6000, itemId = 3199},
+			{from = 6001, to = 7000, itemId = 23488},
+			{from = 7001, to = 10001},
+		},
+		effect = CONST_ME_CRAPS
+	},
 	[12413] = { -- belonging of a deceased
 		chances = {
 			{ from = 1, to = 1442, itemId = 3123 },
@@ -157,9 +170,12 @@ function randomItems.onUse(player, item, fromPosition, target, toPosition, isHot
 				if item.itemid == 12413 then
 					local itemType = ItemType(itemId)
 					player:say("You found " .. (count > 1 and count or (itemType:getArticle() ~= "" and itemType:getArticle() or "")) .. " " .. (count > 1 and itemType:getPluralName() or itemType:getName()) .. " in the bag.", TALKTYPE_MONSTER_SAY)
+				elseif item.itemid == 23488 then
+					local itemType = ItemType(itemId)
+					player:say('You found ' .. (count > 1 and count or (itemType:getArticle() ~= '' and itemType:getArticle() or '')) .. ' ' .. (count > 1 and itemType:getPluralName() or itemType:getName()) .. ' in the cube.', TALKTYPE_MONSTER_SAY)
 				end
 			else
-				player:say("You found nothing useful.", TALKTYPE_MONSTER_SAY)
+				player:say("You found nothing.", TALKTYPE_MONSTER_SAY)
 			end
 
 			item:getPosition():sendMagicEffect(useId.effect)
