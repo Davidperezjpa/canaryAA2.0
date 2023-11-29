@@ -104,7 +104,7 @@ monster.loot = {
 	{ id = 10323, chance = 1000 }, -- guardian boots
 	{ id = 24956, chance = 500, unique = true }, -- part of a rune
 	{ id = 8076, chance = 1000 }, -- spellscroll of prophecies
-	{ id = 5809, chance = 100, unique = true }, -- soul stone
+	-- { id = 5809, chance = 100, unique = true }, -- soul stone
 	{ id = 3439, chance = 100 }, -- phoenix shield
 	{ id = 7417, chance = 100 }, -- runed sword
 	{ id = 22721, chance = 100000 }, -- gold token

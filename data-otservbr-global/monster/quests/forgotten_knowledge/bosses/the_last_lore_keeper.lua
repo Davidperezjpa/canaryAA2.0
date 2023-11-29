@@ -120,7 +120,7 @@ monster.loot = {
 	{ id = 8076, chance = 2500 }, -- spellscroll of prophecies
 	{ id = 7418, chance = 380 }, -- nightmare blade
 	{ id = 16160, chance = 620 }, -- crystalline sword
-	{ id = 5809, chance = 820 }, -- soul stone
+	-- { id = 5809, chance = 820 }, -- soul stone
 	{ id = 24971, chance = 500 }, -- forbidden tome
 	{ id = 24972, chance = 800 }, -- key to knowledge
 	{ id = 20080, chance = 400 }, -- umbral hammer

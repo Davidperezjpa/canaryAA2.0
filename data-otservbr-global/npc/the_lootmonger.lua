@@ -1111,7 +1111,7 @@ npcConfig.shop = {
 	{ itemName = "soldier helmet", clientId = 3375, sell = 16 },
 	{ itemName = "solid rage", clientId = 23517, sell = 310 },
 	{ itemName = "some grimeleech wings", clientId = 22730, sell = 1200 },
-	{ itemName = "soul stone", clientId = 5809, sell = 6000 },
+	-- { itemName = "soul stone", clientId = 5809, sell = 6000 },
 	{ itemName = "souleater trophy", clientId = 11679, sell = 7500 },
 	{ itemName = "sparkion claw", clientId = 23502, sell = 290 },
 	{ itemName = "sparkion legs", clientId = 23504, sell = 310 },
