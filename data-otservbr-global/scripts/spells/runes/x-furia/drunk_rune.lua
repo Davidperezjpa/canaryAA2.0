@@ -1,0 +1,25 @@
+local condition = Condition(CONDITION_DRUNK)
+condition:setParameter(CONDITION_PARAM_TICKS, 20000)
+
+local combat = Combat()
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_RED)
+combat:addCondition(condition)
+combat:setArea(createCombatArea(AREA_SQUARE1X1))
+
+local rune = Spell("rune")
+function rune.onCastSpell(creature, variant, isHotkey)
+	return combat:execute(creature, variant)
+end
+
+rune:name("Drunk Rune")
+rune:group("attack")
+rune:castSound(SOUND_EFFECT_TYPE_SPELL_OR_RUNE)
+rune:impactSound(SOUND_EFFECT_TYPE_SPELL_LIGHT)
+rune:cooldown(2 * 1000)
+rune:groupCooldown(2 * 1000)
+rune:level(32)
+rune:magicLevel(9)
+rune:runeId(3154)
+rune:charges(2)
+rune:allowFarUse(true)
+rune:register()

@@ -6688,7 +6688,7 @@
 		<attribute key="charges" value="1"/>
 		<attribute key="weight" value="210"/>
 	</item>
-	<item id="3154" article="a" name="spell rune">
+	<item id="3154" article="a" name="drunk rune">
 		<attribute key="primarytype" value="utilities"/>
 		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="120"/>
