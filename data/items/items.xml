@@ -6738,10 +6738,15 @@
 		<attribute key="charges" value="4"/>
 		<attribute key="weight" value="52"/>
 	</item>
-	<item fromid="3162" toid="3163" article="a" name="spell rune">
+	<item id="3162" article="a" name="spell rune">
 		<attribute key="primarytype" value="utilities"/>
 		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="120"/>
+	</item>
+	<item id="3163" article="an" name="X Destroy Field Rune">
+		<attribute key="primarytype" value="utilities"/>
+		<attribute key="type" value="rune"/>
+		<attribute key="weight" value="70"/>
 	</item>
 	<item id="3164" article="an" name="energy field rune">
 		<attribute key="primarytype" value="attack runes"/>
