@@ -6915,8 +6915,8 @@
 		<attribute key="charges" value="10"/>
 		<attribute key="weight" value="21"/>
 	</item>
-	<item id="3199" article="a" name="spell rune">
-		<attribute key="primarytype" value="utilities"/>
+	<item id="3199" article="a" name="Terra Prison Rune">
+		<attribute key="primarytype" value="attack runes"/>
 		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="120"/>
 	</item>
