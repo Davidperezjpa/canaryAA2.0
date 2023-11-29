@@ -6727,7 +6727,7 @@
 	</item>
 	<item id="3160" article="an" name="ultimate healing rune">
 		<attribute key="type" value="rune"/>
-		<attribute key="runespellname" value="adura vita"/>
+		<!-- <attribute key="runespellname" value="adura vita"/> -->
 		<attribute key="charges" value="1"/>
 		<attribute key="weight" value="210"/>
 	</item>
@@ -6832,8 +6832,9 @@
 		<attribute key="charges" value="3"/>
 		<attribute key="weight" value="70"/>
 	</item>
-	<item id="3181" article="a" name="spell rune">
+	<item id="3181" article="a" name="mana rune">
 		<attribute key="primarytype" value="utilities"/>
+		<!-- <attribute key="runespellname" value="adura mana"/> -->
 		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="120"/>
 	</item>
@@ -6844,7 +6845,22 @@
 		<attribute key="charges" value="5"/>
 		<attribute key="weight" value="42"/>
 	</item>
-	<item fromid="3183" toid="3187" article="a" name="spell rune">
+	<item fromid="3183" toid="3184" article="a" name="spell rune">
+		<attribute key="primarytype" value="utilities"/>
+		<attribute key="type" value="rune"/>
+		<attribute key="weight" value="120"/>
+	</item>
+	<item id="3185" article="a" name="super mana rune">
+	<attribute key="primarytype" value="utilities"/>
+		<attribute key="type" value="rune"/>
+		<attribute key="weight" value="120"/>
+	</item>
+	<item id="3186" article="a" name="sayayin mana rune">
+	<attribute key="primarytype" value="utilities"/>
+		<attribute key="type" value="rune"/>
+		<attribute key="weight" value="120"/>
+	</item>
+	<item id="3187" article="a" name="super uh rune">
 		<attribute key="primarytype" value="utilities"/>
 		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="120"/>
