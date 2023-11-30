@@ -10406,15 +10406,25 @@
 		<attribute key="containersize" value="10"/>
 		<attribute key="weight" value="110000"/>
 	</item>
-	<item id="4049" article="a" name="magical measurement device">
+	<!-- <item id="4049" article="a" name="magical measurement device">
 		<attribute key="primarytype" value="quest items"/>
 		<attribute key="description" value="The spirit meter consists of a large handle combined with a green crystal full of magical markings"/>
 		<attribute key="weight" value="2550"/>
+	</item> -->
+	<item id="4049" article="a" name="Bifrost Teletransportation Hook">
+		<attribute key="primarytype" value="utilities"/>
+		<attribute key="description" value=""/>
+		<attribute key="weight" value="30000"/>
 	</item>
-	<item id="4050" article="a" name="spirit cage">
+	<!-- <item id="4050" article="a" name="spirit cage">
 		<attribute key="primarytype" value="quest items"/>
 		<attribute key="description" value="This ecto-magical device was designed and calibrated (but not tested) by Spectulus and Sinclair"/>
 		<attribute key="weight" value="700"/>
+	</item> -->
+	<item id="4050" article="a" name="Bifrost">
+		<attribute key="primarytype" value="utilities"/>
+		<attribute key="description" value="Al usarlo se creara un puente entre el item y tu posicion actual."/>
+		<attribute key="weight" value="30000"/>
 	</item>
 	<item id="4051" article="a" name="telescope">
 		<attribute key="primarytype" value="decoration"/>
