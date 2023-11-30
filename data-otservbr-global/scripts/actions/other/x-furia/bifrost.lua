@@ -49,7 +49,11 @@ function bifrost.onUse(player, item, fromPosition, target, toPosition, isHotkey)
                     if isWalkable(pos, true,true,false) then
                         doSendMagicEffect(player:getPosition(), 62)
                         doTeleportThing(player, pos)
+<<<<<<< HEAD
                         player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_SPELL_RAGE_OF_THE_SKIES, player:isInGhostMode() and nil or player)
+=======
+                        player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_SPELL_LIGHTNING, player:isInGhostMode() and nil or player)
+>>>>>>> c05b2336 ([COMPLETED]: Bifrost)
                         doRemoveItem(item.uid, 1)
 
                         ------------- EFFECTS ON TP ---------------
