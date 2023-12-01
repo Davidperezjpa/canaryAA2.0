@@ -389,3 +389,13 @@ function Position.getWithinRange(self, otherPosition, range)
 
 	return otherPosition
 end
+
+function Position:sendAnimatedText(message, speakClass)
+    local specs = Game.getSpectators(self, false, true, 9, 9, 8, 8)
+    if #specs > 0 then
+        for i = 1, #specs do
+            local player = specs[i]
+            player:say(message, speakClass, false, player, self)
+        end
+    end
+end
