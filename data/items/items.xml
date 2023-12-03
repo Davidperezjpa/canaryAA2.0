@@ -18808,7 +18808,7 @@
 		<attribute key="description" value="This is proof for Santiago that you have killed a cockroach"/>
 		<attribute key="weight" value="10"/>
 	</item>
-	<item id="7883" article="a" name="shovel">
+	<item id="7883" article="a" name="Magic Shovel">
 		<attribute key="primarytype" value="tools"/>
 		<attribute key="weight" value="3500"/>
 	</item>
@@ -24625,6 +24625,10 @@
 		<attribute key="weight" value="180"/>
 	</item>
 	<item fromid="10606" toid="10614" name="dead bamboo"/>
+	<item id="10616" article="una" name="Puta Wall">
+		<attribute key="duration" value="90"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
 	<item fromid="10675" toid="10681" article="a" name="small mudpit">
 		<attribute key="primarytype" value="fields"/>
 	</item>
