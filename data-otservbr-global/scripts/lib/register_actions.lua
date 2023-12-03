@@ -73,8 +73,8 @@ local JUNGLE_GRASS = {
 	17153,
 }
 local WILD_GROWTH = {
-	2130,
-	2130,
+	-- 2130,
+	-- 2130,
 	2982,
 	2524,
 	2030,
