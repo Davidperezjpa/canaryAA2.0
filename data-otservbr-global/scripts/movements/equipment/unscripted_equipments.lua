@@ -13724,18 +13724,18 @@ local items = {
 		type = "deequip",
 		slot = "hand",
 	},
-	{
-		-- energy war axe
-		itemid = 805,
-		type = "equip",
-		slot = "hand",
-	},
-	{
-		-- energy war axe
-		itemid = 805,
-		type = "deequip",
-		slot = "hand",
-	},
+	-- {
+	-- 	-- energy war axe
+	-- 	itemid = 805,
+	-- 	type = "equip",
+	-- 	slot = "hand",
+	-- },
+	-- {
+	-- 	-- energy war axe
+	-- 	itemid = 805,
+	-- 	type = "deequip",
+	-- 	slot = "hand",
+	-- },
 	{
 		-- energy headchopper
 		itemid = 804,
@@ -13910,18 +13910,18 @@ local items = {
 		type = "deequip",
 		slot = "hand",
 	},
-	{
-		-- earth war axe
-		itemid = 788,
-		type = "equip",
-		slot = "hand",
-	},
-	{
-		-- earth war axe
-		itemid = 788,
-		type = "deequip",
-		slot = "hand",
-	},
+	-- {
+	-- 	-- earth war axe
+	-- 	itemid = 788,
+	-- 	type = "equip",
+	-- 	slot = "hand",
+	-- },
+	-- {
+	-- 	-- earth war axe
+	-- 	itemid = 788,
+	-- 	type = "deequip",
+	-- 	slot = "hand",
+	-- },
 	{
 		-- earth headchopper
 		itemid = 787,
@@ -14138,18 +14138,18 @@ local items = {
 		type = "deequip",
 		slot = "hand",
 	},
-	{
-		-- icy war axe
-		itemid = 688,
-		type = "equip",
-		slot = "hand",
-	},
-	{
-		-- icy war axe
-		itemid = 688,
-		type = "deequip",
-		slot = "hand",
-	},
+	-- {
+	-- 	-- icy war axe
+	-- 	itemid = 688,
+	-- 	type = "equip",
+	-- 	slot = "hand",
+	-- },
+	-- {
+	-- 	-- icy war axe
+	-- 	itemid = 688,
+	-- 	type = "deequip",
+	-- 	slot = "hand",
+	-- },
 	{
 		-- icy headchopper
 		itemid = 687,
@@ -14318,18 +14318,18 @@ local items = {
 		type = "deequip",
 		slot = "hand",
 	},
-	{
-		-- fiery war axe
-		itemid = 669,
-		type = "equip",
-		slot = "hand",
-	},
-	{
-		-- fiery war axe
-		itemid = 669,
-		type = "deequip",
-		slot = "hand",
-	},
+	-- {
+	-- 	-- fiery war axe
+	-- 	itemid = 669,
+	-- 	type = "equip",
+	-- 	slot = "hand",
+	-- },
+	-- {
+	-- 	-- fiery war axe
+	-- 	itemid = 669,
+	-- 	type = "deequip",
+	-- 	slot = "hand",
+	-- },
 	{
 		-- fiery headchopper
 		itemid = 668,
