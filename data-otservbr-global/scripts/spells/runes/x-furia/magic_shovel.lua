@@ -1,0 +1,23 @@
+local combat = Combat()
+combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_SUDDENDEATH)
+combat:setParameter(COMBAT_PARAM_CREATEITEM, 10616)
+combat:setArea(createCombatArea(AREA_MAGIC_SHOVEL_CLOCKWISE))
+
+local rune = Spell("rune")
+function rune.onCastSpell(creature, variant, isHotkey)
+	creature:say("Fui yo " .. creature:getName(), MESSAGE_POTION)
+	return combat:execute(creature, variant)
+end
+
+rune:name("Armada Magic Shovel")
+rune:group("attack")
+rune:castSound(SOUND_EFFECT_TYPE_MONSTER_MELEE_ATK_MAGIC)
+rune:cooldown(2 * 1000)
+rune:groupCooldown(2 * 1000)
+rune:level(32)
+rune:magicLevel(9)
+rune:runeId(7883)
+rune:charges(0)
+rune:range(4)
+rune:allowFarUse(true)
+rune:register()
