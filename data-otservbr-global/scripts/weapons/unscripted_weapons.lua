@@ -3479,18 +3479,18 @@ local weapons = {
 		unproperly = true,
 		action = "removecharge",
 	},
-	{
-		-- energy war axe
-		itemid = 805,
-		type = WEAPON_AXE,
-		level = 65,
-		unproperly = true,
-		action = "removecharge",
-		vocation = {
-			{ "Knight", true },
-			{ "Elite Knight" },
-		},
-	},
+	-- {
+	-- 	-- energy war axe
+	-- 	itemid = 805,
+	-- 	type = WEAPON_AXE,
+	-- 	level = 65,
+	-- 	unproperly = true,
+	-- 	action = "removecharge",
+	-- 	vocation = {
+	-- 		{ "Knight", true },
+	-- 		{ "Elite Knight" },
+	-- 	},
+	-- },
 	{
 		-- energy headchopper
 		itemid = 804,
@@ -3617,18 +3617,18 @@ local weapons = {
 		unproperly = true,
 		action = "removecharge",
 	},
-	{
-		-- earth war axe
-		itemid = 788,
-		type = WEAPON_AXE,
-		level = 65,
-		unproperly = true,
-		action = "removecharge",
-		vocation = {
-			{ "Knight", true },
-			{ "Elite Knight" },
-		},
-	},
+	-- {
+	-- 	-- earth war axe
+	-- 	itemid = 788,
+	-- 	type = WEAPON_AXE,
+	-- 	level = 65,
+	-- 	unproperly = true,
+	-- 	action = "removecharge",
+	-- 	vocation = {
+	-- 		{ "Knight", true },
+	-- 		{ "Elite Knight" },
+	-- 	},
+	-- },
 	{
 		-- earth headchopper
 		itemid = 787,
@@ -3787,18 +3787,18 @@ local weapons = {
 		unproperly = true,
 		action = "removecharge",
 	},
-	{
-		-- icy war axe
-		itemid = 688,
-		type = WEAPON_AXE,
-		level = 65,
-		unproperly = true,
-		action = "removecharge",
-		vocation = {
-			{ "Knight", true },
-			{ "Elite Knight" },
-		},
-	},
+	-- {
+	-- 	-- icy war axe
+	-- 	itemid = 688,
+	-- 	type = WEAPON_AXE,
+	-- 	level = 65,
+	-- 	unproperly = true,
+	-- 	action = "removecharge",
+	-- 	vocation = {
+	-- 		{ "Knight", true },
+	-- 		{ "Elite Knight" },
+	-- 	},
+	-- },
 	{
 		-- icy headchopper
 		itemid = 687,
@@ -3925,18 +3925,18 @@ local weapons = {
 		unproperly = true,
 		action = "removecharge",
 	},
-	{
-		-- fiery war axe
-		itemid = 669,
-		type = WEAPON_AXE,
-		level = 65,
-		unproperly = true,
-		action = "removecharge",
-		vocation = {
-			{ "Knight", true },
-			{ "Elite Knight" },
-		},
-	},
+	-- {
+	-- 	-- fiery war axe
+	-- 	itemid = 669,
+	-- 	type = WEAPON_AXE,
+	-- 	level = 65,
+	-- 	unproperly = true,
+	-- 	action = "removecharge",
+	-- 	vocation = {
+	-- 		{ "Knight", true },
+	-- 		{ "Elite Knight" },
+	-- 	},
+	-- },
 	{
 		-- fiery headchopper
 		itemid = 668,
