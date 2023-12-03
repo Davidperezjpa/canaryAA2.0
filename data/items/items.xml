@@ -1233,11 +1233,8 @@
 		<attribute key="defense" value="20"/>
 		<attribute key="weight" value="4500"/>
 	</item>
-	<item id="669" article="a" name="fiery war axe">
-		<attribute key="primarytype" value="axe weapons"/>
-		<attribute key="elementfire" value="9"/>
-		<attribute key="attack" value="39"/>
-		<attribute key="defense" value="10"/>
+	<item id="669" article="a" name="Magic Wall Remover Evolution">
+		<attribute key="primarytype" value="utilities"/>
 		<attribute key="weight" value="6150"/>
 	</item>
 	<item id="670" article="a" name="fiery clerical mace">
@@ -1363,11 +1360,8 @@
 		<attribute key="defense" value="20"/>
 		<attribute key="weight" value="4500"/>
 	</item>
-	<item id="688" article="an" name="icy war axe">
-		<attribute key="primarytype" value="axe weapons"/>
-		<attribute key="elementice" value="9"/>
-		<attribute key="attack" value="39"/>
-		<attribute key="defense" value="10"/>
+	<item id="688" article="an" name="Magic Wall Remover">
+		<attribute key="primarytype" value="utilities"/>
 		<attribute key="weight" value="6150"/>
 	</item>
 	<item id="689" article="an" name="icy clerical mace">
@@ -2004,11 +1998,9 @@
 		<attribute key="defense" value="20"/>
 		<attribute key="weight" value="4500"/>
 	</item>
-	<item id="788" article="an" name="earth war axe">
-		<attribute key="primarytype" value="axe weapons"/>
-		<attribute key="elementearth" value="9"/>
-		<attribute key="attack" value="39"/>
-		<attribute key="defense" value="10"/>
+	<item id="788" article="a" name="Terra Remover">
+		<attribute key="primarytype" value="utilities"/>
+		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="6150"/>
 	</item>
 	<item id="789" article="an" name="earth clerical mace">
@@ -2122,10 +2114,7 @@
 		<attribute key="weight" value="4500"/>
 	</item>
 	<item id="805" article="an" name="energy war axe">
-		<attribute key="primarytype" value="axe weapons"/>
-		<attribute key="elementenergy" value="9"/>
-		<attribute key="attack" value="39"/>
-		<attribute key="defense" value="10"/>
+		<attribute key="primarytype" value="utilities"/>
 		<attribute key="weight" value="6150"/>
 	</item>
 	<item id="806" article="an" name="energy clerical mace">
