@@ -341,6 +341,13 @@ AREA_PRISON_SQUARE1X1 = {
 	{1, 1, 1}
 }
 
+--Triangle magic Shovel clockwise
+AREA_MAGIC_SHOVEL_CLOCKWISE = {
+	{0, 1, 0},
+	{0, 2, 1},
+	{0, 1, 0}
+}
+
 AREA_SQUAREWAVE5_NAGA = {
 	{ 1, 1, 1 },
 	{ 1, 1, 1 },
