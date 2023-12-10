@@ -1,4 +1,13 @@
 local magicEffect = TalkAction("/effect")
+local effectActivated = true
+
+function sendMagicEffect(playerId, effectNumber)
+	if effectActivated then
+		local currPlayer = Player(playerId)
+		currPlayer:getPosition():sendMagicEffect(effectNumber)
+		currPlayer:sendCancelMessage("Effect: " .. effectNumber)
+	end
+end
 
 function magicEffect.onSay(player, words, param)
 	-- create log
@@ -9,6 +18,18 @@ function magicEffect.onSay(player, words, param)
 		return true
 	end
 
+	if param == "all" then
+		effectActivated = true
+		for i=0,30,1 do
+			addEvent(sendMagicEffect, i* 700, player:getId(), i)
+		end
+		return true
+	elseif param == "cancel" then
+		effectActivated = false
+		return true
+	end
+
+	effectActivated = true
 	local effect = tonumber(param)
 	if effect ~= nil and effect > 0 then
 		player:getPosition():sendMagicEffect(effect)
