@@ -20,7 +20,7 @@ function magicEffect.onSay(player, words, param)
 
 	if param == "all" then
 		effectActivated = true
-		for i=0,30,1 do
+		for i=1,81,1 do
 			addEvent(sendMagicEffect, i* 700, player:getId(), i)
 		end
 		return true
