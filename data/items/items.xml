@@ -6660,8 +6660,13 @@
 		<attribute key="charges" value="2"/>
 		<attribute key="weight" value="105"/>
 	</item>
-	<item fromid="3150" toid="3151" article="a" name="spell rune">
+	<item id="3150" article="a" name="spell rune">
 		<attribute key="primarytype" value="utilities"/>
+		<attribute key="type" value="rune"/>
+		<attribute key="weight" value="120"/>
+	</item>
+	<item id="3151" article="an" name="Medusa Rune">
+		<attribute key="primarytype" value="attack runes"/>
 		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="120"/>
 	</item>
