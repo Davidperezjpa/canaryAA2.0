@@ -6894,8 +6894,13 @@
 		<attribute key="charges" value="2"/>
 		<attribute key="weight" value="105"/>
 	</item>
-	<item fromid="3193" toid="3194" article="a" name="spell rune">
+	<item id="3193" article="a" name="spell rune">
 		<attribute key="primarytype" value="utilities"/>
+		<attribute key="type" value="rune"/>
+		<attribute key="weight" value="120"/>
+	</item>
+	<item id="3194" article="a" name="Morgana rune">
+		<attribute key="primarytype" value="attack runes"/>
 		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="120"/>
 	</item>
