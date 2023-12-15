@@ -13824,9 +13824,9 @@
 	<item id="5808" name="Orshabaal's brain">
 		<attribute key="weight" value="3500"/>
 	</item>
-	<item id="5809" article="a" name="soul stone">
-		<attribute key="primarytype" value="creature products"/>
-		<attribute key="description" value="It contains the essence of countless tormented souls"/>
+	<item id="5809" article="a" name="Transporta Webones">
+		<attribute key="primarytype" value="tools"/>
+		<attribute key="description" value="Sirve para aquellos que no quieren caminar hacia el dp."/>
 		<attribute key="weight" value="30"/>
 	</item>
 	<item id="5810" article="a" name="pirate voodoo doll">

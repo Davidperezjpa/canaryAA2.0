@@ -112,7 +112,7 @@ monster.loot = {
 	{ name = "royal star", chance = 48390, maxCount = 193 },
 	{ name = "silver token", chance = 98110, maxCount = 4 },
 	{ name = "skull staff", chance = 12900 },
-	{ name = "soul stone", chance = 4720 },
+	-- { name = "soul stone", chance = 4720 },
 	{ name = "supreme health potion", chance = 58060, maxCount = 29 },
 	{ name = "turquoise tendril lantern", chance = 7550 },
 	{ name = "ultimate mana potion", chance = 64519, maxCount = 29 },
