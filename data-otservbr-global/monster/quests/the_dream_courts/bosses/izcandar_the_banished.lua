@@ -107,7 +107,7 @@ monster.loot = {
 	{ name = "royal star", chance = 50000, maxCount = 199 },
 	{ name = "silver token", chance = 100000, maxCount = 2 },
 	{ name = "skull staff", chance = 6250 },
-	{ name = "soul stone", chance = 16670 },
+	-- { name = "soul stone", chance = 16670 },
 	{ name = "summerblade", chance = 3130 },
 	{ name = "supreme health potion", chance = 66670, maxCount = 14 },
 	{ name = "ultimate mana potion", chance = 56250, maxCount = 20 },

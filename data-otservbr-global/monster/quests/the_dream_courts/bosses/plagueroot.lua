@@ -125,7 +125,7 @@ monster.loot = {
 	{ name = "magic sulphur", chance = 6120 },
 	{ name = "living vine bow", chance = 4080 },
 	{ name = "giant emerald", chance = 4080 },
-	{ name = "soul stone", chance = 4080 },
+	-- { name = "soul stone", chance = 4080 },
 	{ name = "living armor", chance = 4080 },
 	{ name = "turquoise tendril lantern", chance = 2040 },
 	{ name = "ring of the sky", chance = 2040 },

@@ -73,7 +73,7 @@ monster.loot = {
 	{ id = 30279, chance = 24500 }, -- frozen claw
 	{ name = "berserk potion", chance = 23000, maxCount = 10 },
 	{ id = 3039, chance = 22500 }, -- red gem
-	{ name = "soul stone", chance = 224000 },
+	-- { name = "soul stone", chance = 224000 },
 	{ id = 30275, chance = 25000 }, -- crown of the percht queen
 	{ name = "flames of the percht queen", chance = 18000 },
 	{ name = "small ladybug", chance = 24980 },

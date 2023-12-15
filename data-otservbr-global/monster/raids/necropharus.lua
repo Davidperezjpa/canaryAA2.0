@@ -74,7 +74,7 @@ monster.loot = {
 	{ id = 10320, chance = 100000 }, -- book of necromantic rituals
 	{ id = 3031, chance = 100000, maxCount = 99 }, -- gold coin
 	{ id = 11475, chance = 100000 }, -- necromantic robe
-	{ id = 5809, chance = 100000 }, -- soul stone
+	-- { id = 5809, chance = 100000 }, -- soul stone
 	{ id = 3311, chance = 52000 }, -- clerical mace
 	{ id = 3324, chance = 47000 }, -- skull staff
 	{ id = 3337, chance = 38000 }, -- bone club
