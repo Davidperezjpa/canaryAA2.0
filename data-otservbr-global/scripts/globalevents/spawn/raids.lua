@@ -1,39 +1,39 @@
 local raids = {
-	--Terça-Feira
-	["Tuesday"] = {
-		["16:00"] = { raidName = "Midnight Panther" },
-	},
+	-- --Terça-Feira
+	-- ["Tuesday"] = {
+	-- 	["16:00"] = { raidName = "Midnight Panther" },
+	-- },
 
-	--Quarta-Feira
-	["Wednesday"] = {
-		["12:00"] = { raidName = "Draptor" },
-	},
+	-- --Quarta-Feira
+	-- ["Wednesday"] = {
+	-- 	["12:00"] = { raidName = "Draptor" },
+	-- },
 
-	--Quinta-Feira
-	["Thursday"] = {
-		["19:00"] = { raidName = "Undead Cavebear" },
-	},
+	-- --Quinta-Feira
+	-- ["Thursday"] = {
+	-- 	["19:00"] = { raidName = "Undead Cavebear" },
+	-- },
 
-	--Sexta-feira
-	["Friday"] = {
-		["06:00"] = { raidName = "Titanica" },
-	},
+	-- --Sexta-feira
+	-- ["Friday"] = {
+	-- 	["06:00"] = { raidName = "Titanica" },
+	-- },
 
-	--Sábado
-	["Saturday"] = {
-		["20:00"] = { raidName = "Draptor" },
-	},
+	-- --Sábado
+	-- ["Saturday"] = {
+	-- 	["20:00"] = { raidName = "Draptor" },
+	-- },
 
-	--Domingo
-	["Sunday"] = {
-		["15:00"] = { raidName = "Midnight Panther" },
-		["13:00"] = { raidName = "Orc Backpack" },
-	},
+	-- --Domingo
+	-- ["Sunday"] = {
+	-- 	["15:00"] = { raidName = "Midnight Panther" },
+	-- 	["13:00"] = { raidName = "Orc Backpack" },
+	-- },
 
-	-- By date (Day/Month)
-	["31/10"] = {
-		["16:00"] = { raidName = "Halloween Hare" },
-	},
+	-- -- By date (Day/Month)
+	-- ["31/10"] = {
+	-- 	["16:00"] = { raidName = "Halloween Hare" },
+	-- },
 }
 
 local spawnRaids = GlobalEvent("spawn raids")
