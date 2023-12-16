@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<houses>
+	<house name="Armonia House #1" houseid="3688" entryx="24976" entryy="24970" entryz="7" rent="0" townid="1" size="558" />
+	<house name="Armonia House #2" houseid="3689" entryx="25002" entryy="24971" entryz="7" rent="0" townid="1" size="268" />
+	<house name="Armonia House #3" houseid="3690" entryx="25023" entryy="24977" entryz="7" rent="0" townid="1" size="95" />
+	<house name="Armonia House #4" houseid="3691" entryx="25027" entryy="24960" entryz="7" rent="0" townid="1" size="465" />
+	<house name="Armonia House #5" houseid="3692" entryx="24984" entryy="24949" entryz="7" rent="0" townid="1" size="176" />
+	<house name="Armonia House #6" houseid="3693" entryx="25024" entryy="25026" entryz="7" rent="0" townid="1" size="160" />
+	<house name="Armonia House #7" houseid="3694" entryx="25063" entryy="25017" entryz="6" rent="0" townid="1" size="256" />
+</houses>
