@@ -379,13 +379,10 @@ client_assertions.txt
 *.manifest
 *.otbm
 *.rar
-<<<<<<< HEAD
 *-house.xml
 *-monster.xml
 *-npc.xml
 monster_count.txt
-=======
->>>>>>> 015fbc04 ([DELETE]: Modified files data-otservbr-global to fix with blank map)
 
 # SFTP for Sublime
 sftp-config.json
