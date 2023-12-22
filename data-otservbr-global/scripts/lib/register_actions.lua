@@ -417,11 +417,12 @@ function onUseRope(player, item, fromPosition, target, toPosition, isHotkey)
 	elseif table.contains(holeId, target.itemid) then
 		toPosition.z = toPosition.z + 1
 		tile = Tile(toPosition)
+		local ropeAbleMonsters = {"xerxes"}
 		if tile then
 			local thing = tile:getTopVisibleThing()
 			if thing:isItem() and thing:getType():isMovable() then
 				return thing:moveTo(toPosition:moveUpstairs())
-			elseif thing:isCreature() and thing:isPlayer() then
+			elseif (thing:isCreature() and thing:isPlayer()) or (thing:isCreature() and table.contains(ropeAbleMonsters, thing:getName():lower())) then
 				return thing:teleportTo(toPosition:moveUpstairs())
 			end
 		end
