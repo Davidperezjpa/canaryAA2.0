@@ -21,5 +21,5 @@ function Example_Two.onThink(interval)
 	return true
 end
 
-Example_Two:interval(10000) -- 10 seconds interval
-Example_Two:register()
+-- Example_Two:interval(10000) -- 10 seconds interval
+-- Example_Two:register()
