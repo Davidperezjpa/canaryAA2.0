@@ -17,5 +17,5 @@ function dawnportMagicEffect.onThink(interval)
 	return true
 end
 
-dawnportMagicEffect:interval(5000)
-dawnportMagicEffect:register()
+-- dawnportMagicEffect:interval(5000)
+-- dawnportMagicEffect:register()
