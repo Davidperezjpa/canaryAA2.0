@@ -20,8 +20,12 @@ function magicEffect.onSay(player, words, param)
 
 	if param == "all" then
 		effectActivated = true
-		for i=1,81,1 do
+		for i = 1,250,1 do
+			if (80 < i and i < 158) or (158 < i and i < 167) then
+				goto continue
+			end
 			addEvent(sendMagicEffect, i* 700, player:getId(), i)
+			::continue::
 		end
 		return true
 	elseif param == "cancel" then
