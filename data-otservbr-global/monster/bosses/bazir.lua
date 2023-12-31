@@ -17,7 +17,7 @@ monster.health = 110000
 monster.maxHealth = 110000
 monster.race = "fire"
 monster.corpse = 4097
-monster.speed = 265
+monster.speed = 2000
 monster.manaCost = 0
 
 monster.changeTarget = {
@@ -38,13 +38,13 @@ monster.flags = {
 	hostile = true,
 	convinceable = false,
 	pushable = false,
-	rewardBoss = true,
+	rewardBoss = false,
 	illusionable = false,
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 95,
 	targetDistance = 1,
-	runHealth = 3000,
+	runHealth = 0,
 	healthHidden = false,
 	isBlockable = false,
 	canWalkOnEnergy = true,
@@ -58,7 +58,7 @@ monster.light = {
 }
 
 monster.summon = {
-	maxSummons = 1,
+	maxSummons = 2,
 	summons = {
 		{ name = "bazir", chance = 15, interval = 1000, count = 1 },
 	},
@@ -140,7 +140,7 @@ monster.attacks = {
 	{ name = "strength", interval = 1000, chance = 9, range = 7, shootEffect = CONST_ANI_LARGEROCK, effect = CONST_ME_ENERGYAREA, target = false },
 	{ name = "combat", interval = 1000, chance = 13, type = COMBAT_LIFEDRAIN, minDamage = -400, maxDamage = -700, radius = 8, effect = CONST_ME_LOSEENERGY, target = false },
 	{ name = "combat", interval = 1000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -400, maxDamage = -700, radius = 8, effect = CONST_ME_MAGIC_GREEN, target = false },
-	{ name = "speed", interval = 1000, chance = 12, speedChange = -1900, radius = 6, effect = CONST_ME_POISONAREA, target = false, duration = 60000 },
+	{ name = "speed", interval = 1000, chance = 20, speedChange = -1900, radius = 6, effect = CONST_ME_POISONAREA, target = false, duration = 60000 },
 	{ name = "strength", interval = 1000, chance = 8, radius = 5, effect = CONST_ME_HITAREA, target = false },
 	{ name = "outfit", interval = 1000, chance = 2, radius = 8, effect = CONST_ME_LOSEENERGY, target = false, duration = 5000, outfitMonster = "demon" },
 	{ name = "outfit", interval = 1000, chance = 2, radius = 8, effect = CONST_ME_LOSEENERGY, target = false, duration = 5000, outfitItem = 3058 },
