@@ -27,8 +27,8 @@ function tibiaCoins.onSay(player, words, param)
     
     player:sendCancelMessage("Added " .. split[2] .. " tibia coins to the character '" .. target:getName() .. "'.")
     target:sendCancelMessage("Received " .. split[2] .. " tibia coins!")
-    target:addTransferableCoins(tonumber(split[2]))
-    -- target:addTibiaCoins(tonumber(split[2]))
+    -- target:addTransferableCoins(tonumber(split[2]))
+    target:addTibiaCoins(tonumber(split[2]))
     target:getPosition():sendMagicEffect(CONST_ME_HOLYAREA)
 
 
